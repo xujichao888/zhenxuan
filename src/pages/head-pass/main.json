@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "团长中心",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mp-dialog": "/static/weui-miniprogram/dialog/dialog"
+  }
+}

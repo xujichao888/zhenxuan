@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "今日上新",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mp-dialog": "/static/weui-miniprogram/dialog/dialog",
+    "mp-loading": "/static/weui-miniprogram/loading/loading",
+    "painter": "/static/painter/painter",
+    "van-count-down": "/static/vant/count-down/index",
+    "van-image": "/static/vant/image/index"
+  }
+}

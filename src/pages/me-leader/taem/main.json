@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的团队",
+  "usingComponents": {
+    "van-overlay": "/static/vant/overlay/index",
+    "painter": "/static/painter/painter",
+    "van-loading": "/static/vant/loading/index"
+  }
+}

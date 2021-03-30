@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mp-dialog": "/static/weui-miniprogram/dialog/dialog",
+    "painter": "/static/painter/painter",
+    "mp-loading": "/static/weui-miniprogram/loading/loading",
+    "van-transition": "/static/vant/transition/index",
+    "van-count-down": "/static/vant/count-down/index",
+    "van-image": "/static/vant/image/index"
+  }
+}

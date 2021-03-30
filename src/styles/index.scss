@@ -1,0 +1,353 @@
+
+page {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+  display:none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+}
+button:after {
+  border: none;
+}
+.jx-card {
+  background-color: #ffffff;
+  width: auto;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.jx-body {
+  padding-bottom: 115rpx;
+  .mini-btn {
+    margin: 0;
+    color: #fff;
+    background: linear-gradient(to right,#fd859c, #fd5171);
+    font-size: 26rpx;
+    padding: 15rpx 25rpx;
+    border-radius: 30rpx;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+  }
+}
+
+// 吉祥严选分享
+.jx-share-tuan {
+  display: flex;
+  justify-content: space-between;
+  padding: 40rpx 25rpx;
+  align-items: center;
+  margin-bottom: 20rpx;
+  .jx-tuan-info {
+    display: flex;
+    .jx-info-share {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .jx-info-share-title {
+        color: #333333;
+        font-size: 30rpx;
+        font-weight: bold;
+      }
+      .jx-info-share-count {
+        color: #666666;
+        font-size: 24rpx;
+      }
+    }
+  }
+  .mini-btn {
+    img {
+      width: 30rpx;
+      height: 30rpx;
+      margin-left: 5rpx;
+    }
+  }
+}
+
+// 品牌列表
+.jx-on-sale {
+  padding: 40rpx 20rpx 16rpx;
+  margin-bottom: 20rpx;
+  &-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37rpx;
+  }
+  &-info {
+    display: flex;
+    align-items: center;
+    &-img {
+      width: 60rpx;
+      height: 60rpx;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    &-text {
+      margin-left: 30rpx;
+      color: #333333;
+      font-size: 34rpx;
+    }
+  }
+  &-img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20rpx;
+    &-item {
+      width: 218rpx;
+      height: 218rpx;
+      border-radius: 10rpx;
+      overflow: hidden;
+      position: relative;
+    }
+    &-price {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #ffffff;
+      font-size: 28rpx;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      text-align: center;
+      width: 100%;
+      height: 43rpx;
+      line-height: 43rpx;
+    }
+  }
+  .jx-on-sale-img-start {
+    justify-content: flex-start;
+    .jx-on-sale-img-item {
+      margin-right: 15rpx;
+    }
+  }
+  &-time {
+    font-size: 26rpx;
+    color: #3ca4b1;
+  }
+}
+
+.jx-portrait {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15rpx;
+}
+.jx-return-header-top {
+  padding-top: 185rpx;
+  margin: 0 20rpx auto;
+}
+
+.jx-margin-top-20 {
+  margin-top: 20rpx;
+}
+
+.jx-search-list {
+	padding-top: 120rpx;
+	margin-right: 26rpx;
+	margin-left: 26rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&-item {
+		width: 344rpx;
+		// height: 507rpx;
+    margin-bottom: 10rpx;
+    padding-bottom: 10rpx;
+		&-img {
+			width: 344rpx;
+			height: 332rpx;
+			margin-bottom: 15rpx;
+		}
+		&-text {
+			font-size: 28rpx;
+			color: 	#333333;
+			padding: 0 20rpx;
+		}
+		&-sales {
+			font-size: 22rpx;
+			color: #929292;
+			padding-left: 20rpx;
+		}
+		&-rate {
+			padding-left: 20rpx;
+			font-size: 36rpx;
+			color: #eb556a;
+			font-weight: 500;
+			.jx-search-list-item-oldrate {
+				font-size: 24rpx;
+				color: #9e9e9e;
+				margin-left: 17rpx;
+				text-decoration: line-through;
+			}
+		}
+	}
+}
+.weui-dialog__wrp {
+  .weui-dialog {
+    background-color: rgba(255,255,255,0);
+    border-radius: 0;
+    .weui-dialog__hd, .weui-dialog__ft {
+      display: none;
+    }
+  }
+}
+.jx-text-displays-ellipses {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.jx-text-displays-ellipses1 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.jx-products-specification {
+  padding-top: 36rpx;
+  .jx-title-products {
+    margin-bottom: 40rpx;
+  }
+  .jx-color-specification {
+    font-size: 28rpx;
+    .jx-select-color {
+      min-width: 127rpx;
+      padding: 0 15px;
+      box-sizing: border-box;
+      height: 62rpx;
+      border-radius: 31rpx;
+      display: inline-block;
+      line-height: 62rpx;
+      text-align: center;
+      background-color: #e6e6e6;
+      color: #909090;
+      margin-right: 20rpx;
+      margin-bottom: 10rpx;
+    }
+    .jx-select-color-action {
+      background-color: #fa4d66;
+      color: #fff;
+    }
+  }
+  .jx-specification-count {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77rpx;
+    padding-bottom: 70rpx;
+    .jx-specification-input-count {
+      margin-right: 20rpx;
+      width: 200rpx;
+      height: 50rpx;
+      line-height: 50rpx;
+      border-radius: 10rpx;
+      border: 1px solid #e5e5e5;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      .jx-input-count {
+        display: inline-block;
+        height: 100%;
+        text-align: center;
+        line-height: 50rpx;
+      }
+      .jx-subtracts, .jx-plus {
+        width: 57rpx;
+        background-color: #f6f6f6;
+        color: #bcbcbc;
+        &.jx-allow {
+          color: #6e6e6e;
+          background-color: #e6e6e6;
+        }
+      }
+      .jx-count {
+        width: 88rpx;
+      }
+    }
+  }
+  .jx-sizes-specification {
+    margin-top: 69rpx;
+  }
+}
+._mp-loading {
+  view {
+    height: 15rpx !important;
+  }
+}
+
+.jx-foot-bottom-text {
+  height: 115rpx;
+  line-height: 115rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #999999;
+}
+.jxDowmTime_index{
+  display: flex;
+  align-items: center;
+  .van-count-down{
+    font-size: 26rpx;
+    color: #3ca4b1;
+    padding-left: 5px;
+  }
+}
+.jxDowmTime_refund_detail{
+  display: flex;
+  align-items: flex-start;
+  .van-count-down{
+    color: white;
+    padding-right: 5px;
+  }
+}
+.jxDowmTime_refund_list{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 5px;
+  .van-count-down{
+    color: #333333;
+  }
+}
+.jxDowmTime_special_sales, .jxDowmTime_special_sales_leader{
+  font-size: 26rpx;
+  display: flex;
+  align-items: center;
+  .timeGroup{
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    .itme{
+      display: inline-block;
+      height: 37rpx;
+      width: 37rpx;
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      line-height: 37rpx;
+      border-radius: 50%;
+      text-align: center;
+      margin: 0 4px;
+    }
+  }
+}
+.jxDowmTime_special_sales .itme{
+  background-color: #333333;
+}
+.jxDowmTime_special_sales_leader{
+  .itme{
+    background-color: #C1885C;
+  }
+  .color{
+    color: #C1885C;
+  }
+} 

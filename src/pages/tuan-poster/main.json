@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "团长海报",
+  "usingComponents": {
+    "painter": "/static/painter/painter"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的粉丝",
+  "usingComponents": {
+    "van-loading": "/static/vant/loading/index"
+  }
+}

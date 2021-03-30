@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "申请退款",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mp-dialog": "/static/weui-miniprogram/dialog/dialog"
+  }
+}

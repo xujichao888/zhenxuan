@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "退款详情",
+  "navigationBarBackgroundColor": "#f1f1f1",
+  "usingComponents": {
+    "mp-dialog": "/static/weui-miniprogram/dialog/dialog",
+    "van-count-down": "/static/vant/count-down/index"
+  }
+}

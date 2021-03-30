@@ -1,0 +1,127 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/me/main",
+    "pages/products/main",
+    "pages/shopping-cart/main",
+    "pages/search/main",
+    "pages/new-arrival/main",
+    "pages/brand-classifi/main",
+    "pages/pay-status/main",
+    "pages/confirm-order/main",
+    "pages/address-list/main",
+    "pages/address-editor/main",
+    "pages/my-order/main",
+    "pages/customer-service/main",
+    "pages/head-center/main",
+    "pages/order-details/main",
+    "pages/logistics-info/main",
+    "pages/mention-hint/main",
+    "pages/withdrawal-subsidiary/main",
+    "pages/head-pass/main",
+    "pages/head-audit/main",
+    "pages/head-application/main",
+    "pages/withdraw-status/main",
+    "pages/refund/main",
+    "pages/select-server/main",
+    "pages/refund-detail/main",
+    "pages/fill-courier/main",
+    "pages/refund-list/main",
+    "pages/tuan-poster/main",
+    "pages/reflect/main",
+    "pages/addBank/main",
+    "pages/bankSelect/main",
+    "pages/minigame-redpacketcover/main",
+    "pages/elinktogame/main",
+    "pages/etest/main",
+    "pages/minigame-products/main"
+  ],
+  "subpackages": [
+    {
+      "root": "pages/special/",
+      "name": "special",
+      "pages": [
+        "special-sales/main",
+        "special-sales-leader/main",
+        "special-sales-set/main"
+      ]
+    },
+    {
+      "root": "pages/products-leader/",
+      "name": "products-leader",
+      "pages": [
+        "main"
+      ]
+    },
+    {
+      "root": "pages/me-leader/",
+      "name": "me-leader",
+      "pages": [
+        "profit/main",
+        "update/main",
+        "invite/main",
+        "taem/main",
+        "fans/main"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/index/main": {
+      "network": "all",
+      "packages": ["special", "products-leader"]
+    },
+    "pages/me/main": {
+      "network": "all",
+      "packages": ["me-leader"]
+    }
+  },
+  "window": {
+    "custom": true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#999",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#fd4c6d",
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "购物车",
+      "pagePath": "pages/shopping-cart/main",
+      "iconPath": "static/tabs/shop-cart.png",
+      "selectedIconPath": "static/tabs/shop-cart-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/me/main",
+      "iconPath": "static/tabs/me.png",
+      "selectedIconPath": "static/tabs/me-active.png"
+    }
+  ],
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "购物车",
+      "pagePath": "pages/shopping-cart/main",
+      "icon": "static/tabs/shop-cart.png",
+      "activeIcon": "static/tabs/shop-cart-active.png"
+    }, {
+      "name": "我的",
+      "pagePath": "pages/me/main",
+      "icon": "static/tabs/me.png",
+      "activeIcon": "static/tabs/me-active.png"
+    }],
+    "position": "bottom"
+  },
+  "usingComponents": {}
+}

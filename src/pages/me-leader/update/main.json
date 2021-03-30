@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "店主升级",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "van-progress": "/static/vant/progress/index"
+  }
+}

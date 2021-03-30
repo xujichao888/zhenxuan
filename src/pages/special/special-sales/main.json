@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "品牌特卖",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mp-dialog": "/static/weui-miniprogram/dialog/dialog",
+    "painter": "/static/painter/painter",
+    "mp-loading": "/static/weui-miniprogram/loading/loading",
+    "van-count-down": "/static/vant/count-down/index",
+    "van-image": "/static/vant/image/index"
+  }
+}

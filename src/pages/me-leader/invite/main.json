@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "邀请码",
+  "usingComponents": {
+    "van-overlay": "/static/vant/overlay/index",
+    "painter": "/static/painter/painter"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "会员升级",
+  "navigationBarBackgroundColor": "#f1f1f1",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-cell-group" : "/static/vant/cell-group/index",
+    "van-field": "/static/vant/field/index",
+    "van-count-down": "/static/vant/count-down/index",
+    "mp-dialog": "/static/weui-miniprogram/dialog/dialog"
+  }
+}

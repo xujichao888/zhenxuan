@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "mp-checkbox-group": "/static/weui-miniprogram/checkbox-group/checkbox-group",
+    "mp-checkbox": "/static/weui-miniprogram/checkbox/checkbox",
+    "mp-cells": "/static/weui-miniprogram/cells/cells",
+    "mp-slideview": "/static/weui-miniprogram/slideview/slideview",
+    "mp-dialog": "/static/weui-miniprogram/dialog/dialog",
+    "van-image": "/static/vant/image/index",
+    "van-toast": "/static/vant/toast/index",
+    "mp-badge": "/static/weui-miniprogram/badge/badge"
+  }
+}

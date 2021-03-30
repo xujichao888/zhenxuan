@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "mp-badge": "/static/weui-miniprogram/badge/badge",
+    "mp-dialog": "/static/weui-miniprogram/dialog/dialog",
+    "painter": "/static/painter/painter",
+    "van-image": "/static/vant/image/index"
+  }
+}
